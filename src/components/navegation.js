@@ -6,7 +6,7 @@ class Navegation extends Component {
         return (
             <div>
                 <nav className="navbar sticky-top navbar-expand-lg  nav-dark  navbar-dark  ">
-                    <a className="navbar-brand" href="../../src/index.html ">
+                    <a className="navbar-brand" href="/">
                         <img src="/img/logo.png" width="70" height="30" className="d-inline-block align-top" alt="" />
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -17,9 +17,8 @@ class Navegation extends Component {
                         <ul className="nav navbar-nav ml-auto">
                             <Item name="Inicio" url="/"/>
                             <Item name="¿Quienes Somos?"/>
-                            <Item name="Ayuda" />
-                            <Item name="Iniciar Sesion" url="/signin" icon="fas fa-user-circle"/>
-                            <Item name="Registrarse" icon="far fa-address-card"/>
+                             <Item name="Iniciar Sesion" url="/signin" icon="fas fa-user-circle icon-config color-yellow"/>
+                            <Item name="Registrarse" url="/signup" icon="far fa-address-card icon-config"/>
                         </ul>
                     </div>
 

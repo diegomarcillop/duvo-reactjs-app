@@ -10,7 +10,7 @@ class Searcher extends Component {
                         <input type="text" className="form-control" placeholder="Buscador de cursos.."
                             aria-label="Recipient's username" aria-describedby="button-addon2" />
                         <div className="input-group-append">
-                            <button className="btn btn-outline-light" type="button" id="button-addon2"><i
+                            <button className="btn btn-outline-light btn-sm" type="button" id="button-addon2"><i
                                  className="fas fa-search"></i></button>
                         </div>
 

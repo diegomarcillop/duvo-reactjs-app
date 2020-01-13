@@ -43,6 +43,7 @@ footer{
 .footer-font{
   font-family: 'Fredoka One', cursive;
   color: white;
+  font-size: 14px;
 }
 
 .footer-font a{
@@ -59,9 +60,13 @@ footer{
 }
 h1{
   font-family: 'Fredoka One', cursive;
-
   font-size: 22px;
 }
+
+h6{
+  font-size: 14px;
+}
+
 .help-div label{
   font-family: 'Fredoka One', cursive;
 
@@ -72,12 +77,118 @@ button{
   font-size: 16px;
 }
 
-
 .course-target{
   max-width: 18rem;
 }
 
+.form-group a{
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+}
 
+.input-group input{
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  stop-color: rgb(49, 49, 49);
+}
+
+.form-group label{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+.form-group p a{
+  font-family: 'Fredoka One', cursive;
+  font-size: 14px;
+}
+
+.font-releway {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+
+}
+
+.module {
+  font-family: 'Raleway', sans-serif ;
+  font-size: 14px ;
+}
+
+.white-background {
+  background-color: #ffffff;
+}
+
+.create h1{
+  font-size: 18px;
+}
+
+.create h6{
+  font-size: 14px;
+
+}
+
+.icon-config{
+  color:#80c043;
+  margin: 0px 5px 0px 5px;
+}
+
+.color-yellow{
+  color:#d1c411!important;
+}
+
+
+
+.courseInfo p{
+  font-family: 'Raleway', sans-serif ;
+  font-size: 90% ;
+}
+
+.icon-cambios {
+  font-size: 20px;
+  color: rgb(243, 176, 113);
+}
+
+.icon-class {
+  font-size: 20px;
+  margin: 0px 5px 0px 5px;
+  color: rgb(43, 123, 148);
+}
+
+.chat-nav{
+  opacity: 0.1;
+}
+
+
+.icon-chat{
+  font-size: 30px;
+  margin: 0px 5px 0px 5px;
+
+  color: #35640a;
+}
+
+.margin-person{
+  margin: 0px 5px 0px 5px;
+
+}
+
+
+.text_ {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  stop-color: white;
+  width: 100%;
+  align-content: center;
+}
+
+
+.text-small{
+  font-size: 10px;
+}
+
+.font-releway-input {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+
+} 
 
 
 
@@ -96,9 +207,7 @@ button{
   background-color: #e7f6f6;
 }
 
-.form-add-div {
-  background-color: #f5f5f5;
-}
+ 
 
 .index-two {
   background-color: #f5f5f5;
@@ -166,24 +275,15 @@ navbar-nav {
   align-content: left;
 }
 
-.icon-class {
-  font-size: 20px;
-  color: rgb(60, 194, 235);
-}
+ 
 
-.icon-cambios {
-  font-size: 20px;
-  color: rgb(243, 176, 113);
-}
-
+ 
 .icon-clases {
   font-size: 23px;
   color: rgb(179, 207, 87);
 }
 
-.fuente-releway {
-  font-family: 'Raleway', sans-serif;
-}
+ 
 
 option {
   font-size: 14px;
@@ -198,24 +298,10 @@ selected {
   cursor: default;
 }
 
-.link_ {
-  font-family: 'Fredoka One', cursive;
-  font-size: 15px;
-}
+ 
 
 .font-big {
   font-size: 26px;
-}
-
-.ds {
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
-  stop-color: rgb(49, 49, 49);
-}
-
-.clx {
-  font-size: 16px;
-  color: rgb(133, 129, 129);
 }
 
 .clr {
@@ -250,14 +336,7 @@ selected {
   align-content: center;
 }
 
-.text_ {
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
-  stop-color: white;
-  width: 100%;
-  align-content: center;
-}
-
+ 
 .item_ {
   color: rgb(243, 243, 243);
 }
@@ -266,9 +345,7 @@ selected {
   align-content: left;
 }
 
-date {
-  font-size: 1px;
-}
+ 
 
 .title-conten {
   font-size: 15px;

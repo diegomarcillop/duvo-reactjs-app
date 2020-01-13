@@ -8,19 +8,19 @@ class Course extends Component {
                     <div className="card-header text-center card text-white bg-info mb-3">
                         <div className="media">
                             <a className="mr-3" href="/">
-                                <img src="/img/default.png" width="30" height="30" class="mr-3" alt="..." />
+                                <img src="/img/default.png" width="30" height="30" className="mr-3" alt="..." />
                             </a>
                             <h6>Curso de Logica y algortimo</h6>
                         </div>
                     </div>
-                    <div className="fuente-releway">
-                        <div className="card-footer p-1 fuente-releway">
-                            <p className="mt-0 text-center  "><strong> </strong>Introducción al curso</p>
+                    <div className="module">
+                        <div className="card-footer p-1">
+                            <p className="mt-0 text-center"><strong> </strong>Introducción al curso</p>
                         </div>
                         <div className="card-footer p-1">
                             <p className="mt-0 text-center">Concepto de algortimo</p>
                         </div>
-                    </div>
+        -            </div>
                     <a href="/" className="btn btn-link btn-sm">Ver mas...</a>
                 </div>
                 <br />
