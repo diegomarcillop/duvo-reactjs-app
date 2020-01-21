@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
- import Item from './items'
+import './navegation.css'
+import Item from './items'
 
 class Navegation extends Component {
     render() {

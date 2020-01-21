@@ -24,11 +24,7 @@ class Login extends Component {
                             <div className="form-group form-check">
                                 <input type="checkbox" className="form-check-input" id="Check1" />
                                 <p className="form-check-label " for="Check1">Recordar datos</p>
-                            </div>
-                            
-                             
-
-
+                            </div> 
                             <div className="form-group">
                             <button className="btn btn-primary btn-block">Ingresar</button>
  

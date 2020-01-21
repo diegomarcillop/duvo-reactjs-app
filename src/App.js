@@ -1,48 +1,37 @@
 import React from 'react';
+import { createStore } from 'redux';
+
+
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Navegation from './components/navegation'
-import Carousel from './components/carousel'
-import Searcher from './components/searcher'
+import Navegation from './components/Navegation/navegation'
 import Courses from './components/courses';
-import Footer from './components/footer';
-import Login from './components/login';
-import Register from './components/register';
-import CourseAdd from './components/courseAdd'
-import CourseInfo from './components/courseInfo';
-import IndexUser from './components/indexUser';
-import Chat from './components/chat';
- import Class from './components/class';
+import { Provider } from 'react-redux';
+ import Carousel from './components/carousel';
+import Searcher from './components/Seacher/searcher';
+import Footer from './components/Footer/footer';
+import rootReducer from './reducers'
 
 
+const store = createStore(rootReducer);
 
 function App() {
   return (
-    <Router>
-      <Navegation />
-      <Route path="/" exact component={Carousel} />
-      <Route path="/" exact component={Searcher} />
-      <Route path="/" exact component={Courses} />
-      <Route path="/" exact component={Footer} />
-      <Route path="/" exact component={Chat} />
-      <Route path="/signin" exact component={Login}/>
-      <Route path="/signin" exact component={Chat} />
+    <Provider store={store}> 
+      <Router>
+        
+        <Navegation />
+        
+        <Route path="/" exact> 
+          <Carousel />
+          <Searcher />
+          <Courses />
+          <Footer />
+        </Route>
 
-      <Route path="/class" exact component={Class} />
-      <Route path="/class" exact component={Chat} />
-      
-      
+        
 
-      <Route path="/signup" exact component={Register}/>
-      <Route path="/signup" exact component={Chat} />
- 
-      <Route path="/index" exact component={IndexUser}/>
-      <Route path="/index" exact component={Courses}/>
-      
-
-
-      <Route path="/course/add" exact component={CourseAdd}/>
-      <Route path="/module" exact component={CourseInfo}/> 
-    </Router>
+      </Router>  
+    </Provider>
   );
 }
 

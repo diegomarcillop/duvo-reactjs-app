@@ -1,6 +1,7 @@
 import React,{ Component } from 'react';
 import ShowModule from './showModules';
 import Modal from './modal';
+import Button from './button';
 
 class CourseInfo extends Component{
 
@@ -48,15 +49,12 @@ class CourseInfo extends Component{
                         <p>6</p>
                     </div>
                 </div>
-                </div>
-            
-                <button className="btn-success btn" type="btn"  data-toggle="modal" data-target="#modalAddModule" ><i class="fas fa-plus-circle"></i> Nuevo modulo</button>
+                </div> 
+                
+                <Button style="btn-success btn btn-sm" modal="modal" etiquetaModal="#modalAddModule" /> 
                 <Modal id="modalAddModule" title="Nuevo modulo"/>
                 <ShowModule/>
-                </div>
-                
-                 
-
+                </div> 
             </div>
         )
     }

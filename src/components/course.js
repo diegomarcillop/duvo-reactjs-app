@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React, {Component } from 'react';
 
-class Course extends Component {
-    render() {
+class Course extends Component{
+    render(){
         return (
             <div className="col-sm-4">
-                <div className="card shadow p-3 course-target central-content">
+                <div className="card shadow p-3 course-target central-content"   >
                     <div className="card-header text-center card text-white bg-info mb-3">
                         <div className="media">
                             <a className="mr-3" href="/">
                                 <img src="/img/default.png" width="30" height="30" className="mr-3" alt="..." />
                             </a>
-                            <h6>Curso de Logica y algortimo</h6>
+                            <h6>{this.props.title}</h6>
                         </div>
                     </div>
                     <div className="module">
@@ -28,5 +28,4 @@ class Course extends Component {
         )
     }
 }
-
 export default Course;

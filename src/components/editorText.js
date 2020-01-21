@@ -3,11 +3,15 @@ import { Editor } from '@tinymce/tinymce-react';
 
 class EditorTexto extends Component{
 
+    constructor(props){
+      super(props);
+      this.state = {content : ''};
+      this.handleEditorChange = this.handleEditorChange.bind(this);
+
+    }
+
     handleEditorChange = (e) => {
-        console.log(
-          'Content was updated:',
-          e.target.getContent()
-        );
+      this.setState({content: e.target.getContent()})
       }
 
       render() {
@@ -29,8 +33,12 @@ class EditorTexto extends Component{
                 bullist numlist outdent indent | image |  help  | code',
               
             }}
+            value = {this.state.content}
             onChange={this.handleEditorChange}
-          />
+
+           />
+
+    
           
         );
       }

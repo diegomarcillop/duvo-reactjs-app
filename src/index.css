@@ -9,47 +9,12 @@ html {
   overflow-x: hidden;
   width: 100%;
 }
-nav {
-  font-family: 'Fredoka One', cursive;
-  font-size: 13px;
-  background-color: rgb(34, 62, 80)!important;
-}
+ 
 
 .central-content {
   justify-content: center;
    margin: auto;
-}
-
-footer{
-  background-color: rgb(34, 62, 80)!important;
-
-}
-
-.buscador{
-  font-family: 'Fredoka One', cursive;
-  background-color: rgb(34, 62, 80)!important;
-   }
-
-.buscador h3{
-  font-size: 22px;
-}
-
-.buscador input{
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-
-}
-
-.footer-font{
-  font-family: 'Fredoka One', cursive;
-  color: white;
-  font-size: 14px;
-}
-
-.footer-font a{
-  font-family: 'Raleway', sans-serif;
-
-}
+} 
 
 .div-while{
   background-color: #fbfbfb; 
@@ -190,7 +155,19 @@ button{
 
 } 
 
+.font-fredoka-small{
+  font-family: 'Fredoka One', cursive;
+  font-size: 11px;
+}
 
+
+.progress{
+  height:10px;
+}
+
+.progress-bar{
+  width: 45%;
+}
 
 
 
@@ -205,33 +182,13 @@ button{
 
 .index-one {
   background-color: #e7f6f6;
-}
-
+} 
  
 
 .index-two {
   background-color: #f5f5f5;
-}
-
-
-
-.card-class {
-  background-color: rgb(226, 238, 241);
-}
-
-.about {
-  background-image: url("/img/pcs.png");
-}
-
-.course-user {
-  background-image: url("/img/course.jpg");
-}
-
-
-
-.helps {
-  background-image: url("/img/helps.jpg");
-}
+} 
+ 
 
 .op {
   color: rgb(63, 57, 57)

@@ -1,0 +1,15 @@
+footer{
+  background-color: rgb(34, 62, 80)!important;
+
+}
+
+.footer-font{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .footer-font a{
+    font-family: 'Raleway', sans-serif;
+  
+  }

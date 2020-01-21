@@ -1,0 +1,14 @@
+.buscador{
+    font-family: 'Fredoka One', cursive;
+    background-color: rgb(34, 62, 80)!important;
+     }
+  
+  .buscador h3{
+    font-size: 22px;
+  }
+  
+  .buscador input{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+  
+  }

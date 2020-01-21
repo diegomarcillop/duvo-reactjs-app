@@ -1,88 +1,46 @@
 import React, { Component } from 'react';
-import EditorTexto from './editorText';
 
 class Class extends Component {
+
     render() {
         return (
-            <div className="container p-1">
-                <div className="white-background">
-                    <div className="m-4">
-
-                        <div className="text-center p-3">
-                            <h1>Nueva clase</h1>
-                            <hr />
-                        </div>
-
-                        <div className="row">
-                            <div className="form-group col-md-6">
-                                <h6>Nombre</h6>
-                                <input type="text" className="form-control form-control-sm font-releway-input "
-                                    id="nameClass" />
-                            </div>
-                            <div className="form-group col-md-3">
-                                <h6>Estado</h6>
-                                <select id="inputState"
-                                    className="form-control form-control-sm  font-releway-input">
-                                    <option >Activo</option>
-                                    <option >Inactivo</option>
-
-                                </select>
-                            </div>
-                            <div className="form-group col-md-3">
-                                <h6> Tipo de clase</h6>
-                                <select id="inputType"
-                                    className="form-control form-control-sm font-releway-input">
-                                    <option >Lectura</option>
-                                    <option >Video</option>
-
-                                </select>
-                            </div>
-
-
-
-                            <div className="form-group col-md-6 ">
-                                <h6>Modulo</h6>
-                                <select id="inputCourse"
-                                    className="form-control form-control-sm font-releway-input">
-                                    <option >--Seleccionar--</option>
-                                    <option>Curso de ...</option>
-                                    <option>Curso de logica y algoritmo</option>
-                                </select>
-                            </div>
-
-                            <div className="form-group col-md-6">
-                                <h6>Clase anterior</h6>
-                                <select id="inputClass"
-                                    className="form-control form-control-sm font-releway-input">
-                                    <option  >--Seleccionar--</option>
-                                    <option>Curso de ...</option>
-                                    <option>Curso de logica y algoritmo</option>
-                                </select>
-                            </div>
-
-
-                        </div>
-
-                         <div className="form-group">
-                             <h6>Contenido</h6>
-                         <EditorTexto />
-                        
+            <div className="container p-2">
+               <div className="row m-1">
+               <div className="col-sm-6">
+                    <h6 className="font-fredoka-small">Curso de logica y algortimo/ Modulo: Conceptos de logica y algoritmo</h6>
+                    
+                </div> 
+                <div className="col-sm-4 ml-auto">
+                <div className="progress">
+                              <div className="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                          </div>
-                         
-                             <div className="mr-auto">
-                                <a href="/">
-                                    <button className="btn-dark btn margin-person btn-sm" type="button">Volver</button>
-                                </a>
-                                <button type="submit" className="btn btn-success btn-sm">Crear clase</button>
-                            </div>
-                            <br />
-                     </div>
+                </div>
+               </div>
 
+
+                <div className="col-md-12">
+                    <div className="card shadow mb-3">
+
+                        <div className="card-body">
+                        
+                    
+
+                        </div>
+                        <hr/>
+                        <div className=" row m-2">
+                            <div className="form-group ml-auto">
+                                
+                              <a className="btn btn btn btn-dark btn-sm  mr-auto" href="#" role="button">Atras</a>
+                              <a className="btn btn btn-success btn-sm margin-person" href="#" role="button">Siguiente</a>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
         )
     }
 }
-
 export default Class;
