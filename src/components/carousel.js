@@ -9,28 +9,30 @@ class Carousel extends Component {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img src="/img/carrusel1.jpg" className="d-block  img-carrusel" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
+                            <div className="row">
+                            <div className="carousel-caption d-none d-md-block">
                                 <h5>Preparate para el  futuro</h5>
                                 <p>Especializate en las carreras del futuro y saca tu mejor potencial.</p>
-                                <button type="button" class="btn btn-outline-success">Cursos</button>
+                                <button type="button" className="btn btn-outline-success">Cursos</button>
 
+                            </div>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src="/img/carrusel2_.jpg" className="d-block w-100" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption d-none d-md-block">
                                 <h5>Trabaja como un profesional</h5>
                                 <p>Adquiere las mejores practicas en la industria del software y aumenta tus posibilidad de empleo</p>
-                                <button type="button" class="btn btn-outline-warning">Comenza ahora</button>
+                                <button type="button" className="btn btn-outline-warning">Comenza ahora</button>
 
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src="/img/carrusel3.jpg" className="d-block w-100 " alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption d-none d-md-block">
                                 <h5>Aumenta el potencial de tu equipo</h5>
                                 <p>Saca el mejor potencial de tu equipo, te ayudamos!</p>
-                                <button type="button" class="btn btn-outline-info">Contacto</button>
+                                <button type="button" className="btn btn-outline-info">Contacto</button>
 
                             </div>
                         </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import Course from './course';
 import WithDataFetching from '../containers/withDataFetching';
 function Courses({data}) {
+    
     return (
         <div className="m-2 central-content">
             <form>
