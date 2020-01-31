@@ -43,8 +43,19 @@ button{
 }
 
 .course-target{
-  max-width: 18rem;
+  width: 20rem;
 }
+
+.course-font {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+.course-target:hover{
+  filter: grayscale(100%); 
+
+  background-color:rgb(194, 241, 255);
+}
+ 
 
 .form-group a{
   font-family: 'Fredoka One', cursive;
@@ -69,7 +80,7 @@ button{
 
 .font-releway {
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 
 }
 

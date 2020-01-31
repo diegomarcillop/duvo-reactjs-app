@@ -1,31 +1,21 @@
 import React, { Component } from 'react';
 
-function Course({title})  {
-    return(
+function Course({ title }) {
+    return (
         <div className="col-sm-4">
-        <div className="card shadow p-3 course-target central-content"   >
-            <div className="card-header text-center card text-white bg-info mb-3">
-                <div className="media">
-                    <a className="mr-3" href="/">
-                        <img src="/img/default.png" width="30" height="30" className="mr-3" alt="..." />
-                    </a>
-                    <h6>{title}</h6>
-                </div>
+            <div className="card shadow  course-target central-content"   >
+                <img src="/img/courses/courses01.jpg" className="card-img-top img-course w-100" width="100%"></img>
+                 <div className="card-footer">
+                 <h5 className="text-center course-font">{title}</h5>
+                 </div>
             </div>
-            <div className="module">
-                <div className="card-footer p-1">
-                    <p className="mt-0 text-center"><strong> </strong>Introducción al curso</p>
-                </div>
-                <div className="card-footer p-1">
-                    <p className="mt-0 text-center">Concepto de algortimo</p>
-                </div>
-                -            </div>
-            <a href="/" className="btn btn-link btn-sm">Ver mas...</a>
+
+            
+            
+            <br />
         </div>
-        <br />
-    </div>
     )
 }
 
- 
+
 export default Course;
