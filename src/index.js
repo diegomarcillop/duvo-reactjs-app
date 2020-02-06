@@ -13,13 +13,14 @@ import Login from './components/Login/login';
 import Chat from './components/chat';
 import Class from './components/class';
 import ClassAdd from './components/classAdd';
-import Register from './components/register';
+import Register from './components/Register/register';
  
 const Root = (
     <Provider store={store}>
         <Router>
-            <Navegation />
+           
             <Route path="/" exact>
+            <Navegation />
                 <Carousel />
                 <Searcher />
                 <Courses />
@@ -27,13 +28,23 @@ const Root = (
             </Route>
 
             <Route path="/signup" exact>
+                
+            <img src="/img/portada02.svg"  className="imageLogin" alt=""/>
+            
+            <Navegation />
+
                 <Register/>
                 <Chat/>
             </Route>
 
             <Route path="/signin" exact>
+                <div >
+                    
+                    <img src="/img/portada01.svg"  className="imageLogin" alt=""/>
+                    
                 <Login/>
                 <Chat/>
+                </div> 
             </Route>
 
             <Route path="/class" exact>

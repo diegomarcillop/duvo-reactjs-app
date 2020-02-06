@@ -1,0 +1,23 @@
+ 
+.login-form  {
+    overflow-y: hidden!important;
+    height:100%;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+.login-form input {
+    font-size: 110%!important;
+
+} 
+
+.login-form p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 90%;
+}
+
+.login-form{
+    max-width: 28em;
+} 
+
+ 

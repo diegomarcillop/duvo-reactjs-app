@@ -21,8 +21,7 @@ class Navegation extends Component {
                              <Item name="Iniciar Sesion" url="/signin" icon="fas fa-user-circle icon-config color-yellow"/>
                             <Item name="Registrarse" url="/signup" icon="far fa-address-card icon-config"/>
                         </ul>
-                    </div>
-
+                    </div> 
                 </nav>
             </div >
         )
