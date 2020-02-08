@@ -4,7 +4,7 @@ import EditorTexto from './editorText';
 class ClassAdd extends Component {
     render() {
         return (
-            <div className="container p-1">
+            <div className="container">
                 <div className="white-background shadow">
                     <div className="m-4">
 

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
+import './class.css';
 
 class Class extends Component {
 
     render() {
         return (
-            <div className="container p-2">
+            <div className="container p-2 classView">
                <div className="row m-1">
                <div className="col-sm-6">
-                    <h6 className="font-fredoka-small">Curso de logica y algortimo/ Modulo: Conceptos de logica y algoritmo</h6>
-                    
+                    <h6 className="">Curso de logica y algortimo/ Modulo: Conceptos de logica y algoritmo</h6>                   
                 </div> 
                 <div className="col-sm-4 ml-auto">
                 <div className="progress">
@@ -17,14 +17,9 @@ class Class extends Component {
                          </div>
                 </div>
                </div>
-
-
                 <div className="col-md-12">
                     <div className="card shadow mb-3">
-
-                        <div className="card-body">
-                        
-                    
+                        <div className="card-body"> 
 
                         </div>
                         <hr/>

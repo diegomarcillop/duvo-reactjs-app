@@ -4,8 +4,10 @@ class ModuleAdd extends Component {
     render() {
         return (
             <div className="container">
+                <br/>
+                <div className="card card-body ">
                 <form action="/cursos/modulos/registrarModulo/{{this.id}}" method="POST">
-                    <div className="form-row  ">
+                    <div className="form-row p- ">
                         <div className="form-group col-md-12 ">
                             <h6>Nombre</h6>
                             <input type="text" className="form-control form-control-sm fuente-releway "
@@ -46,6 +48,7 @@ class ModuleAdd extends Component {
                         <button type="submit" className="btn btn-info btn-sm">Agregar modulo</button>
                     </div>
                 </form>
+                </div> 
             </div>
         )
     }

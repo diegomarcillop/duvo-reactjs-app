@@ -173,13 +173,7 @@ button{
 }
 
 
-.progress{
-  height:10px;
-}
-
-.progress-bar{
-  width: 45%;
-}
+ 
 
 .carousel-item:before{
   content:"";

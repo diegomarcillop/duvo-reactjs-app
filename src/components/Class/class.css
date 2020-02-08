@@ -1,0 +1,17 @@
+
+.classView h6{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    stop-color: white;
+    width: 100%;
+    align-content: center;
+    font-weight: bold;
+  }
+
+  .progress{
+    height:14px;
+  }
+  
+  .progress-bar{
+    width: 45%;
+  }
