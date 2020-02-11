@@ -1,7 +1,7 @@
 body {
-  background: #C9D6FF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
 
@@ -127,7 +127,7 @@ button{
 .icon-class {
   font-size: 20px;
   margin: 0px 5px 0px 5px;
-  color: rgb(43, 123, 148);
+  color: #443168;
 }
 
 .chat-nav{
@@ -182,7 +182,7 @@ button{
   position: absolute;
   top: 0;
   right: 0;
-  background: linear-gradient(rgba(255,255,255,0), rgb(34, 62, 80) 100%); 
+  background: linear-gradient(rgba(255,255,255,0),#005366 100%); 
   
 }  
 .img-carrusel{
@@ -227,18 +227,10 @@ button{
   color: rgb(63, 57, 57)
 }
 
-nav {
-  background-color: #104242;
-}
+ 
+ 
 
-navbar-nav {
-  opacity: 0.4;
-}
-
-.navbar li:hover {
-  background: #2d4850;
-  color: black;
-}
+ 
 
 .about-descrip {
   font-family: 'Raleway', sans-serif;

@@ -17,6 +17,7 @@ import Register from './components/Register/register';
 import CourseAdd from './components/courseAdd';
 import ModuleAdd from './components/moduleAdd';
 import LoginCo from './components/Login/LoginContainer';
+import RegisterCo from './components/Register/registerContainer';
  
 const Root = (
     <Provider store={store}>
@@ -33,7 +34,7 @@ const Root = (
             <Route path="/signup" exact>
                 <img src="/img/portada02.svg" className="imageLogin" alt="" />
                 <Navegation />
-                <Register />
+                <RegisterCo/>
                 <Chat />
             </Route>
 
