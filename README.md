@@ -1,5 +1,5 @@
 ## DUVO- Online learning platform
-<img src="https://github.com/diegomarcillop/duvo-reactjs-app/blob/master/public/Screenshot01.png"></img>
+<img src="https://github.com/diegomarcillop/duvo-reactjs-app/blob/master/public/views/views.png"></img>
 ## Available Scripts
 
 In the project directory, you can run:
