@@ -1,5 +1,10 @@
 .registerForm input{ 
     font-family: 'Raleway', sans-serif;
-    font-size: 90%!important;
+    font-size: 80%!important;
 }
+
+.registerForm {
+    max-width:30em!important;
+}
+
 

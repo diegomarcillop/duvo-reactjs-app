@@ -1,50 +1,60 @@
-import React,{Component} from 'react';
+import React, { useState, useContext } from 'react';
 import Axios from 'axios';
 import Login from './login';
+import { UsuarioContext } from '../../Context/usuario-context';
+import { Redirect } from 'react-router-dom'
 
-class LoginCo extends Component{
+const LoginCo = (props) => {
     
-    constructor(props){
-        super(props);
-        this.state = {
-            userName:"",
-            password:"",
-            note:""
-        };
+    const [user, setUser] = useState({
+        userName:"", password:"", auth: false
+    });
+    const {saveUser}= useContext(UsuarioContext); 
 
-        this.OnClick = this.OnClick.bind(this);
-        this.outputEvent = this.outputEvent.bind(this);
+    const outputEvent = async evt => {
+        evt.preventDefault();  
+        await setUser({
+        ... user,
+            [evt.target.name]: evt.target.value
+        }); 
     }
 
-    outputEvent = async (event) => {
-        event.preventDefault();
-        await this.setState({
-            [event.target.name]: event.target.value
-        });
-    }
-
-    OnClick = async (event) =>{
-        event.preventDefault(); 
-       await Axios.post('http://localhost:4000/auth/login',{
-               user:{
-                userName : this.state.userName,
-                password : this.state.password
-                
-               }
+    const OnClick = async event => {
+        event.preventDefault();  
+         
+        await Axios.post('http://localhost:4000/auth/signin', {
+            user: {
+                userName: user.userName,
+                password: user.password
+            }
         })
-        .then( ({data}) => 
-        {  console.log(data);})
-        .catch( err => {
-            console.log(err);
-        }) 
+        .then(({ data }) => {
+            console.log(data); 
+                if (data.status === 200 && data.auth === true) {
+
+                      setUser({
+                        ...user,
+                        auth: true
+                    }) 
+                     saveUser(data.data); 
+                 
+         return <Redirect push to="/somewhere/else" />
+                    }
+            })
+            .catch(err => {
+                console.log(err);
+            })
     }
-    render(){
-        return(
-            <div> 
-                <Login methodData={this.outputEvent} handleSubmit={this.OnClick}/>
-            </div>
-        )
+
+    if(user.auth){
+         return <Redirect to="/index" />;
     }
-}
+    return (
+        <div>
+            <Login methodData={outputEvent} handleSubmit={OnClick} />
+         
+        </div>
+    )
+} 
 
 export default LoginCo;

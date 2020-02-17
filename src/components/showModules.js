@@ -3,9 +3,11 @@ import React, { Component } from 'react';
 class ShowModule extends Component {
     render() {
         return (
-            <div className="table-responsive text-center m-1">
+          <div className=" ">
+                 <div className="row central-content">
+                <div className="col-sm-6 p-2  ">
+                <div className="card card-body table-responsive text-center ">
                 <caption className="text-center">Modulos</caption>
-
                 <table className="table">
                     <thead>
                         <tr>
@@ -34,6 +36,9 @@ class ShowModule extends Component {
                     </tbody>
                 </table>
             </div>
+                 </div>
+                </div>
+          </div>
         )
     }
 }

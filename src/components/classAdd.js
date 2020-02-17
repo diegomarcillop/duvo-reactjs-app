@@ -36,10 +36,7 @@ class ClassAdd extends Component {
                                     <option >Video</option>
 
                                 </select>
-                            </div>
-
-
-
+                            </div> 
                             <div className="form-group col-md-6 ">
                                 <h6>Modulo</h6>
                                 <select id="inputCourse"

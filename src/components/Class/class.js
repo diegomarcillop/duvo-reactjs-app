@@ -26,8 +26,8 @@ class Class extends Component {
                         <div className=" row m-2">
                             <div className="form-group ml-auto">
                                 
-                              <a className="btn btn btn btn-dark btn-sm  mr-auto" href="#" role="button">Atras</a>
-                              <a className="btn btn btn-success btn-sm margin-person" href="#" role="button">Siguiente</a>
+                              <a className="btn btn btn btn-dark btn-sm  mr-auto" href="/" role="button">Atras</a>
+                              <a className="btn btn btn-success btn-sm margin-person" href="/" role="button">Siguiente</a>
                             </div>
                         </div>
 

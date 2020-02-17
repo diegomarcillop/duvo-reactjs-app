@@ -2,11 +2,11 @@
      overflow-y: hidden!important;
      height: 100%;
      max-height: 100%;
-     max-width: 100%;
+     max-width: 30em!important;
  }
 
  .login-form input {
-     font-size: 110%!important;
+     font-size: 95%!important;
  }
 
  .login-form p {
@@ -15,7 +15,13 @@
  }
 
  .login-form {
-     max-width: 28em;
+     max-width: 30%;
  }
 
- 
+ .login-form button {
+     font-size: 85%;
+ }
+
+ .login-form label {
+     font-size: 85%;
+ }
