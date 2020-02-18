@@ -14,8 +14,8 @@ import Footer from './components/Footer/footer';
  import ShowModule from './components/showModules';
 import Home from './components/Home/home';
 
-class App extends Component {
-    render() {
+function App() {
+    
         return (
             <div>
                 <Router>
@@ -72,8 +72,7 @@ class App extends Component {
 
                 </Router>
             </div>
-        )
-    }
+        )  
 }
 
 export default App;

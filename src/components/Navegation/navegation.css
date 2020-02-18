@@ -1,10 +1,44 @@
 nav {
-    font-family: 'Fredoka One', cursive;
-    font-size: 13px;
-    background-color: #0F2C33!important;
-  }
+  font-family: 'Fredoka One', cursive;
+  font-size: 13px;
+  background-color: #0F2C33!important;
+}
 
-  .navbar li:hover {
-    background: #1F5966;
-    color: black;
-  }
+.navbar li:hover {
+  background: #1F5966;
+  color: black;
+  border-radius: 70px 70px 70px 70px;
+  -moz-border-radius: 70px 70px 70px 70px;
+  -webkit-border-radius: 70px 70px 70px 70px;
+}
+
+nav .icon-user {
+  font-size: 15px;
+  color: rgb(132, 219, 253);
+}
+
+nav .icon-class {
+  font-size: 15px;
+  color: rgb(250, 199, 104);
+}
+
+nav .dropdown-item:hover {
+  background: rgb(142, 181, 190);
+  color: black;
+}
+
+.icon-config{
+  font-size: 15px;
+  color:#aeee72;
+  margin: 0px 5px 0px 5px;
+} 
+
+.color-yellow{
+  font-size: 15px;
+  color:#f1b067!important;
+}
+
+.icon-home{
+  font-size: 17px;
+  color:#fff3c0!important;
+}

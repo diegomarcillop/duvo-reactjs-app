@@ -103,15 +103,7 @@ button{
 
 }
 
-.icon-config{
-  color:#80c043;
-  margin: 0px 5px 0px 5px;
-}
-
-.color-yellow{
-  color:#d1c411!important;
-}
-
+  
 
 
 .courseInfo p{
@@ -220,17 +212,10 @@ button{
 
 .index-two {
   background-color: #f5f5f5;
-} 
- 
-
+}   
 .op {
   color: rgb(63, 57, 57)
-}
-
- 
- 
-
- 
+} 
 
 .about-descrip {
   font-family: 'Raleway', sans-serif;
@@ -255,11 +240,7 @@ button{
   font-family: 'Raleway', sans-serif;
   font-size: 17px;
   align-content: left;
-}
-
- 
-
- 
+} 
 .icon-clases {
   font-size: 23px;
   color: rgb(179, 207, 87);
@@ -278,9 +259,7 @@ selected {
 .enlace_desactivado {
   pointer-events: none;
   cursor: default;
-}
-
- 
+} 
 
 .font-big {
   font-size: 26px;

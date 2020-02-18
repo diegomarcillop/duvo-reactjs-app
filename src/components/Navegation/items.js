@@ -5,7 +5,7 @@ class Item extends Component{
         return(
             <div>
                 <li className="nav-item active" >
-                <a className="item_ nav-link  " href={this.props.url}><i className={this.props.icon}></i>{this.props.name}</a>
+                <a className="item_ nav-link" href={this.props.url}><i className={this.props.icon}></i>{this.props.name}</a>
                 </li>
             </div>
         )
