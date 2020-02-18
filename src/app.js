@@ -48,6 +48,7 @@ function App() {
                     </Route>
 
                     <Route path="/course/add" exact>
+                        <Navegation/>
                         <CourseAdd />
                     </Route>
 

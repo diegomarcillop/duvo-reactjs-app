@@ -1,11 +1,12 @@
 nav {
   font-family: 'Fredoka One', cursive;
-  font-size: 13px;
+  font-size: 12px;
   background-color: #0F2C33!important;
+  height: 50px;
 }
 
 .navbar li:hover {
-  background: #1F5966;
+  background: rgba(31, 89, 102, 0.349);
   color: black;
   border-radius: 70px 70px 70px 70px;
   -moz-border-radius: 70px 70px 70px 70px;
@@ -23,8 +24,16 @@ nav .icon-class {
 }
 
 nav .dropdown-item:hover {
+  font-family: 'Raleway', sans-serif;
+
   background: rgb(142, 181, 190);
   color: black;
+}
+
+nav .dropdown-item {
+  font-family: 'Raleway', sans-serif; 
+  font-size: 12px; 
+  font-weight: bold;
 }
 
 .icon-config{
