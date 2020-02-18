@@ -5,17 +5,10 @@ class ShowModule extends Component {
         return (
           <div className=" ">
                  <div className="row central-content">
-                <div className="col-sm-6 p-2  ">
-                <div className="card card-body table-responsive text-center ">
-                <caption className="text-center">Modulos</caption>
-                <table className="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Nombre</th>
-                            <th scope="col">Acción</th>
-                        </tr>
-                    </thead>
+              
+                <div className="card-body table-responsive text-center ">
+                 <table className="table">
+                    
                     <tbody>
                         <tr>
                             <th scope="row">1</th>
@@ -36,7 +29,7 @@ class ShowModule extends Component {
                     </tbody>
                 </table>
             </div>
-                 </div>
+                
                 </div>
           </div>
         )

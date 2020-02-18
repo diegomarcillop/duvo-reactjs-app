@@ -2,7 +2,7 @@ import React, { Component } from 'react';
  import Chat from './components/chat';
 import Class from './components/Class/class';
 import ClassAdd from './components/classAdd';
- import CourseAdd from './components/courseAdd';
+ import CourseAdd from './components/Course/courseAdd';
 import ModuleAdd from './components/moduleAdd';
 import LoginCo from './components/Login/LoginContainer';
 import RegisterCo from './components/Register/registerContainer';
@@ -13,7 +13,13 @@ import Searcher from './components/Seacher/searcher';
 import Footer from './components/Footer/footer';
  import ShowModule from './components/showModules';
 import Home from './components/Home/home';
-
+import Course from './components/CourseStudent/course';
+import CourseInfo from './components/Course/courseInfo';
+import courses from './components/Course/coursesIndex';
+import Courses from './components/Course/coursesIndex';
+import CoursesIndex from './components/Course/coursesIndex';
+import Modal from './components/Modal/modal';
+ 
 function App() {
     
         return (
@@ -28,6 +34,7 @@ function App() {
                         <Navegation />
                         <Carousel />
                         <Searcher />
+                        <CoursesIndex title="Todos los cursos de" titleB="DUVO"/>
                          <Footer />
                     </Route>
 
@@ -52,6 +59,16 @@ function App() {
                         <CourseAdd />
                     </Route>
 
+                    <Route path="/course/index" exact>
+                        <Navegation/>
+                       <CourseInfo/>
+                    </Route>
+
+                    <Route path="/course" exact>
+                        <Navegation/>
+                        <Searcher/>
+                        <CoursesIndex/>
+                     </Route>
 
                     <Route path="/class" exact>
                         <Class />
@@ -63,6 +80,7 @@ function App() {
  
 
                     <Route path="/module/add" exact>
+                        <Navegation/>
                         <ModuleAdd />
                     </Route>
 
@@ -70,7 +88,7 @@ function App() {
                         <ShowModule />
                     </Route>
 
-
+                    <Modal/>
                 </Router>
             </div>
         )  

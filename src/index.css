@@ -8,7 +8,7 @@ body {
 html {
   overflow-x: hidden;
   width: 100%;
-  overflow-y: scroll!important; 
+   overflow-y: scroll!important; 
 }
  
 
@@ -42,20 +42,7 @@ button{
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
 }
-
-.course-target{
-  width: 20rem;
-}
-
-.course-font {
-  font-family: 'Raleway', sans-serif;
-  font-size: 15px;
-}
-.course-target:hover{
-  filter: grayscale(100%); 
-
-  background-color:rgb(194, 241, 255);
-}
+ 
  
 
 .form-group a{

@@ -5,7 +5,7 @@ class ModuleAdd extends Component {
         return (
             <div className="container">
                 <br/>
-                <div className="card card-body ">
+                <div className="card card-body central-content col-sm-10 ">
                 <form action="/cursos/modulos/registrarModulo/{{this.id}}" method="POST">
                     <div className="form-row p- ">
                         <div className="form-group col-md-12 ">

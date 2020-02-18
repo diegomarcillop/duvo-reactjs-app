@@ -12,9 +12,9 @@ function Navegation() {
 
     const opciones = () => {
         switch (idRol) {
-
+        // Student 
             case 1: return (<Fragment>
-                <Item name=" Inicio" url="/" icon="icon-home fas BigMama4" />
+                <Item name=" Inicio" url="/" icon="icon-home fas fa-school" />
                 <div className="user">
                     <Item name=" Mis Cursos" icon="icon-class fas fa-chalkboard-teacher" url="/" />
                 </div>
@@ -31,6 +31,8 @@ function Navegation() {
                 </li>
 
             </Fragment>)
+
+            //Admin
             case 2: return  (
                 <Fragment>
                <Item name=" Inicio" url="/" icon="icon-home fas fa-school" />
@@ -42,7 +44,7 @@ function Navegation() {
                     </a>
                     <div class="dropdown-menu dropdown-menu-right">
                     <Link className="dropdown-item" to="/course/add">Crear Curso</Link>
-                        <a class="dropdown-item" href="#">Todos los cursos</a>
+                    <Link className="dropdown-item" to="/course">Todos los cursos</Link> 
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -51,15 +53,15 @@ function Navegation() {
                         <i class="icon-user fas fa-user-astronaut"></i> {userName}
                     </a>
                     <div class="dropdown-menu dropdown-menu-right">
-                    <Link className="dropdown-item" to="/course/add"></Link>
-
-                     </div>
+                        <a class="dropdown-item" href="#">Mi cuenta</a>
+                        <a class="dropdown-item" href="#">Cerrar Sesión</a>
+                    </div>
                 </li>
                 </Fragment>
             );
             default: return  ( <Fragment>
                 <Item name="Inicio" url="/" />
-                <Item name="¿Quienes Somos?" />
+                <Item name="¿Quienes Somos?" url="/"/>
                 <Item name="Iniciar Sesion" url="/signin" icon="fas fa-user-circle icon-config color-yellow" />
 
                  <Item name="Registrarse" url="/signup" icon="far fa-address-card icon-config" />
@@ -73,7 +75,7 @@ function Navegation() {
 
     return (
         <div>
-            <nav className="navbar  navbar-expand-sm shadow-sm  nav-dark  navbar-dark  "  >
+            <nav className="navbar sticky-top  navbar-expand-sm shadow-sm  nav-dark  navbar-dark  "  >
                 <a className="navbar-brand" href="/">
                     <img src="/img/logo.png" width="70" height="30" className="d-inline-block align-top" alt="" />
                 </a>
@@ -81,7 +83,7 @@ function Navegation() {
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                 </button>
-                <div className="collapse navbar-collapse p-1" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="nav navbar-nav ml-auto"> 
                     {opciones()} 
                     </ul>

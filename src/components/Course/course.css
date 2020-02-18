@@ -1,0 +1,33 @@
+
+.card-course .card{
+    border-left: 6px solid rgb(95, 159, 170);
+
+}
+
+ 
+
+.card-course .detalles{
+    margin: 0px 0px 0px 50%;
+    font-size: 16px;
+}
+.card-course p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.card-course img{
+ max-width: 6em;
+ width: 6em;   
+ }  
+
+.card-course h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+     text-align: center; 
+    margin: 10px 0px 5px 3px;
+    color: rgb(55, 64, 71);
+  }
+  
+
+  
