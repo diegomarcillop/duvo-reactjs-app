@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import EditorTexto from './editorText';
+import EditorTexto from '../editorText';
+import { Link } from 'react-router-dom';
 
 class ClassAdd extends Component {
     render() {
@@ -36,7 +37,7 @@ class ClassAdd extends Component {
                                     <option >Video</option>
 
                                 </select>
-                            </div> 
+                            </div>
                             <div className="form-group col-md-6 ">
                                 <h6>Modulo</h6>
                                 <select id="inputCourse"
@@ -60,20 +61,23 @@ class ClassAdd extends Component {
 
                         </div>
 
-                         <div className="form-group">
-                             <h6>Contenido</h6>
-                         <EditorTexto />
-                        
-                         </div>
-                         
-                             <div className="mr-auto">
-                                <a href="/">
-                                    <button className="btn-dark btn margin-person btn-sm" type="button">Volver</button>
-                                </a>
-                                <button type="submit" className="btn btn-success btn-sm">Crear clase</button>
+                        <div className="form-group">
+                            <h6>Contenido</h6>
+                            <EditorTexto />
+
+                        </div>
+                        <br /><br />
+                        <div className="row">
+
+                            <div className="col-sm-2 mr-auto">
+                                <Link type="button" class="btn-dark btn btn-sm  btn-block" to="/course/index"><i class="fas fa-angle-left"></i> Volver</Link>
                             </div>
-                            <br />
-                     </div>
+                            <div className="col-sm-2 ml-auto">
+                                <Link type="button" class="btn-succes btn btn-sm  btn-block" to="/course/index"><i class="fas fa-cubes"></i> Crear Modulo</Link>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
 
                 </div>
 

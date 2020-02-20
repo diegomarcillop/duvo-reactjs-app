@@ -47,7 +47,7 @@ const LoginCo = (props) => {
     }
 
     if(user.auth){
-         return <Redirect to="/index" />;
+         return <Redirect to="/" />;
     }
     return (
         <div>

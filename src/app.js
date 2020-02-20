@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
  import Chat from './components/chat';
 import Class from './components/Class/class';
-import ClassAdd from './components/classAdd';
+import ClassAdd from './components/Class/classAdd';
  import CourseAdd from './components/Course/courseAdd';
-import ModuleAdd from './components/moduleAdd';
-import LoginCo from './components/Login/LoginContainer';
+ import LoginCo from './components/Login/LoginContainer';
 import RegisterCo from './components/Register/registerContainer';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navegation from './components/Navegation/navegation'
@@ -19,6 +18,8 @@ import courses from './components/Course/coursesIndex';
 import Courses from './components/Course/coursesIndex';
 import CoursesIndex from './components/Course/coursesIndex';
 import Modal from './components/Modal/modal';
+import ModuleAdd from './components/Module/moduleAdd';
+import CourseStudent from './components/CourseStudent/courseStudent';
  
 function App() {
     
@@ -47,7 +48,7 @@ function App() {
 
                     <Route path="/signin" exact>
                         
-                        <img src="/img/portada01.svg" className="imageLogin" alt="" />
+                        <img src="/img/portada01.svg" className="imageLogin_" alt="" />
                         <Navegation />
                         <LoginCo />
                         <Chat />
@@ -61,31 +62,39 @@ function App() {
 
                     <Route path="/course/index" exact>
                         <Navegation/>
-                       <CourseInfo/>
+                       <CourseInfo size="col-sm-8 central-content p-1"/>
                     </Route>
 
                     <Route path="/course" exact>
-                        <Navegation/>
-                        <Searcher/>
+                        <Navegation/> 
                         <CoursesIndex/>
                      </Route>
 
                     <Route path="/class" exact>
+                    <Navegation/> 
                         <Class />
                     </Route>
 
                     <Route path="/class/add" exact>
+                    <Navegation/>
+
                         <ClassAdd />
                     </Route>
  
+                    <Route path="/student/cursos/" exact>
+                    <Navegation/> 
+                        <CourseStudent />
+                         
+                    </Route> 
 
                     <Route path="/module/add" exact>
                         <Navegation/>
-                        <ModuleAdd />
+                        <ModuleAdd/>
                     </Route>
 
                     <Route path="/modules" exact>
-                        <ShowModule />
+                        
+                        <ShowModule/>
                     </Route>
 
                     <Modal/>

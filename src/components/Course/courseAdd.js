@@ -95,7 +95,7 @@ class CourseAdd extends Component {
                                 <input type="text" className="form-control" id="inputAddress2"
                                     placeholder="#programacion, #logica, #aprendizaje" />
                             </div>
-                            <button type="submit" className="btn btn-info col-sm-2 btn-block ml-auto btn-sm ">Siguiente</button>
+                            <button type="submit" className="btn btn-success col-sm-2 btn-block ml-auto btn-sm ">Crear Curso</button>
                         </form>
                     </div>
                 </div>

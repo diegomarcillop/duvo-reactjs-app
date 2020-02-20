@@ -7,5 +7,12 @@
     align-content: center;
     font-weight: bold;
   }
-
  
+.classView h3{
+  font-family: 'Fredoka One', cursive;
+}
+
+.classView p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+}

@@ -5,4 +5,27 @@ h2{
 .card-img{
     max-width: 10em;
 }
- 
+
+.card-course-user h1{
+    font-size: 13px;
+    margin: 10px 2px 2px 2px;
+    text-align: center;
+}
+
+.fa-play-circle{
+    font-size: 40px;
+    margin: 2px 0px 2px 0px;
+}
+
+.info-course-1{
+    max-height: 60px!important;
+}
+
+.fa-check-double{
+    color: rgb(17, 148, 98);
+}
+
+.fa-circle{
+    color: rgb(204, 131, 97);
+
+}

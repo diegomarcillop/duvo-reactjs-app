@@ -4,7 +4,30 @@
 
 }
 
- 
+td{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.icon-class {
+    font-size: 16px;
+    margin: 0px 2px 0px 5px;
+    color: #467b9e;
+  }
+
+  .icon-cambios {
+    font-size: 16px;
+    margin: 0px 2px 0px 4px;
+    color: rgb(240, 142, 50);
+  }
+  
+.card-info{
+    background-color: rgb(255, 255, 255);
+}
+
+.card-info h1{
+    margin: 25px!important;
+}
 
 .card-course .detalles{
     margin: 0px 0px 0px 50%;

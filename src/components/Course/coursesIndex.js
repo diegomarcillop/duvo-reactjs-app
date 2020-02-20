@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Course from './course';
 import Axios from 'axios';
-import { Link } from 'react-router-dom';
-
+ 
 function  CoursesIndex(props) {
 
     const [courses, setCourses] = useState(["", ""]);
@@ -30,7 +29,7 @@ function  CoursesIndex(props) {
                         {courses.map(
                             (course, index) =>
                                 
-                                 <Course title={course.nameCourse} key={index} />
+                                 <Course title={course.nameCourse} imagen={course.imagen} key={index} />
                                  
                         )}
                     </div>

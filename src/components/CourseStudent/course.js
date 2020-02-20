@@ -1,26 +1,35 @@
 import React, { Component } from 'react';
 import './index.css';
 import ProgressBar from '../progressBar/progressBar';
+import { Link } from 'react-router-dom';
 
 function Course() {
     return (
-        <div className="col-sm-4 p-1">
-            <div className="card shadow-sm central-content card-co"   >
-                <div className="row no-gutters">
-                    <div className="col-sm-4">
-                        <div className=" text-center " height="10%" width="10%">
-                            <img src="https://avatars2.githubusercontent.com/u/26816303?s=460&v=4" className="card-img" />
-                        </div>
-                    </div>
-                    <div className="col-sm-8">
-                        <div className="card-body ">
-                            <div className="title text-center">
-                                <h2>Curso de logica y algortimos XXXXXXXXXXXXXXXX</h2>
-                            </div>
-                            <ProgressBar progress="10" />
-                        </div>
-                    </div>
-                </div>
+        <div className="col-sm-4 m-2">
+            <div className="card shadow-sm central-content card-course-user"   >
+             <div className="card-body">
+             <div className="row m-1 info-course-1">
+                     <div className="col-3">
+                     <img src="/img/logica.jpg" className="card-img-top rounded shadow-sm" ></img>
+                     </div> 
+                    <div className="col-6">
+                       <div className="row">
+                       <h1>Curso de logica y algoritmo I</h1> 
+                       </div>
+                    </div> 
+                    <div className="col-3">
+                    <Link to="/course/index" className="circulo">
+                      <i className="fas fa-play-circle"></i>
+                      </Link>
+                        </div> 
+                 </div>
+                 <div className="col-sm-12 m-1">
+                       <ProgressBar progress="20"/>
+                       </div>
+
+                     
+             </div>
+                 
             </div>
 
             <br />

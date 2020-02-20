@@ -3,7 +3,7 @@ import './course.css';
 import { Link } from 'react-router-dom';
 import { UsuarioContext } from '../../Context/usuario-context';
 
-function Course({ title }) {
+function Course({ title, imagen }) {
 
     const { user } = useContext(UsuarioContext);
     const { idRol } = user;
@@ -13,14 +13,14 @@ function Course({ title }) {
             case 2:
                return(
                    <Fragment> 
-                        <Link className="detalles" to="/course/index"><i class="fas fa-angle-double-left" ></i> Mostrar detalles</Link>
+                        <Link className="detalles" to="/course/index"><i className="fas fa-angle-double-left" ></i> Gestionar Curso</Link>
 
                    </Fragment>
                 )
             break;
             default:
             return(
-                <Link className="detalles" to="/"  data-toggle="modal" data-target="#exampleModal"><i class="fas fa-angle-double-left" ></i> Mostrar detalles</Link>
+                <Link className="detalles" to="/"  data-toggle="modal" data-target="#exampleModal"><i className="fas fa-angle-double-left" ></i> Mostrar detalles</Link>
             ) 
         }
     } 
@@ -31,7 +31,7 @@ function Course({ title }) {
                  <div className="card-body">
                  <div className="row">
                      <div className="col-4">
-                     <img src="/img/courses/courses01.jpg" className="card-img-top rounded shadow-sm" ></img>
+                     <img src={imagen} className="card-img-top rounded shadow-sm" ></img>
                      </div>
                     <div className="col-8">
                     <h1>{title}</h1>

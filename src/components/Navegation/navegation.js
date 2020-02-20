@@ -16,7 +16,7 @@ function Navegation() {
             case 1: return (<Fragment>
                 <Item name=" Inicio" url="/" icon="icon-home fas fa-school" />
                 <div className="user">
-                    <Item name=" Mis Cursos" icon="icon-class fas fa-chalkboard-teacher" url="/" />
+                    <Item name=" Mis Cursos" icon="icon-class fas fa-chalkboard-teacher" url="/student/cursos/" />
                 </div>
 
                 <li class="nav-item dropdown">

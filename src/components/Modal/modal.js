@@ -4,9 +4,9 @@ import CourseInfo from '../Course/courseInfo';
 function Modal(props){
  return(
  
-<div class="modal fade bd-example-modal-lg"  id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
+<div className="modal fade bd-example-modal-lg"  id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-lg" role="document">
+    <div className="modal-content">
       <CourseInfo/>
     </div>
   </div>

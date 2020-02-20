@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import './module.css';
+import { Link } from 'react-router-dom';
 
 class ModuleAdd extends Component {
     render() {
         return (
             <div className="container">
                 <br/>
-                <div className="card card-body central-content col-sm-10 ">
+                
+                <div className="card card-body card-module central-content col-sm-10 ">
+                <h1 className="text-center"> Nuevo modulo</h1>
+                    <hr/>
                 <form action="/cursos/modulos/registrarModulo/{{this.id}}" method="POST">
                     <div className="form-row p- ">
                         <div className="form-group col-md-12 ">
@@ -18,9 +23,9 @@ class ModuleAdd extends Component {
                     <div className="form-row">
                         <div className="form-group col-md-12  ">
                             <h6 >Portada [PNG, jpg, SVG] </h6>
-                            <div className="custom-file">
+                            <div className="custom-file ">
                                 <input type="file" className="form-control-file fuente-releway "
-                                    id="exampleFormControlFile1" name="photo" required />
+                                    id="exampleFormControlFile1  " name="photo" required />
                             </div>
                         </div>
 
@@ -42,12 +47,17 @@ class ModuleAdd extends Component {
                             </select>
                         </div>
                     </div>
- 
-                    <div className="modal-footer">
-                        <button type="button" class="btn-dark btn btn-sm" data-dismiss="modal">Volver</button>
-                        <button type="submit" className="btn btn-info btn-sm">Agregar modulo</button>
-                    </div>
-                </form>
+                        <br/><br/>
+                     <div className="row">
+                          
+                        <div className="col-sm-2 mr-auto">
+                            <Link type="button" class="btn-dark btn btn-sm  btn-block"  to="/course/index"><i class="fas fa-angle-left"></i> Volver</Link> 
+                        </div> 
+                        <div className="col-sm-3 ml-auto"> 
+                        <Link type="button" class="btn-succes btn btn-sm  btn-block"  to="/course/index"><i class="fas fa-cubes"></i> Crear Modulo</Link> 
+                        </div>
+                     </div>
+                 </form>
                 </div> 
             </div>
         )
