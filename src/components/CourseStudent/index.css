@@ -12,6 +12,12 @@ h2{
     text-align: center;
 }
 
+.card-course-user p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
 .fa-play-circle{
     font-size: 40px;
     margin: 2px 0px 2px 0px;

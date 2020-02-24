@@ -21,9 +21,12 @@ function Course() {
                     <Link to="/course/index" className="circulo">
                       <i className="fas fa-play-circle"></i>
                       </Link>
-                        </div> 
+                        </div>
+                      
+ 
                  </div>
                  <div className="col-sm-12 m-1">
+                 <p className="p-2">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                        <ProgressBar progress="20"/>
                        </div>
 

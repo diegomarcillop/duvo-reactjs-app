@@ -20,6 +20,8 @@ import CoursesIndex from './components/Course/coursesIndex';
 import Modal from './components/Modal/modal';
 import ModuleAdd from './components/Module/moduleAdd';
 import CourseStudent from './components/CourseStudent/courseStudent';
+import Questionary from './components/Questionary/questionary';
+import Exercises from './components/Exercises/exercises';
  
 function App() {
     
@@ -95,6 +97,16 @@ function App() {
                     <Route path="/modules" exact>
                         
                         <ShowModule/>
+                    </Route>
+
+                    <Route path="/questionary" exact>
+                        <Navegation/>
+                        <Questionary/>
+                    </Route>
+
+                    <Route path="/exercises" exact>
+                        <Navegation/>
+                        <Exercises/>
                     </Route>
 
                     <Modal/>

@@ -26,6 +26,9 @@ function Navegation() {
                     </a>
                     <div class="dropdown-menu dropdown-menu-right">
                         <a class="dropdown-item" href="#">Mi cuenta</a>
+                        <Link name="Questionarios" className="dropdown-item"  to="/questionary">Questionario</Link>
+                        <Link name="Exercises" className="dropdown-item"  to="/exercises">Ejercicios</Link>
+
                         <a class="dropdown-item" href="#">Cerrar Sesión</a>
                     </div>
                 </li>
