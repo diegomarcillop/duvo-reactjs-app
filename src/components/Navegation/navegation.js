@@ -29,7 +29,7 @@ function Navegation() {
                         <Link name="Questionarios" className="dropdown-item"  to="/questionary">Questionario</Link>
                         <Link name="Exercises" className="dropdown-item"  to="/exercises">Ejercicios</Link>
 
-                        <a class="dropdown-item" href="#">Cerrar Sesión</a>
+                        <a class="dropdown-item" href="/signin">Cerrar Sesión</a>
                     </div>
                 </li>
 
@@ -57,17 +57,17 @@ function Navegation() {
                     </a>
                     <div class="dropdown-menu dropdown-menu-right">
                         <a class="dropdown-item" href="#">Mi cuenta</a>
-                        <a class="dropdown-item" href="#">Cerrar Sesión</a>
+                        <a class="dropdown-item" href="/signin">Cerrar Sesión</a>
                     </div>
                 </li>
                 </Fragment>
             );
             default: return  ( <Fragment>
-                <Item name="Inicio" url="/" />
-                <Item name="¿Quienes Somos?" url="/"/>
-                <Item name="Iniciar Sesion" url="/signin" icon="fas fa-user-circle icon-config color-yellow" />
+                <Item name=" Inicio" url="/" icon=" icon-home  fas fa-home" /> 
+                <Item name=" Quienes Somos" url="/about" icon="fas fa-users icon-somos" />
 
-                 <Item name="Registrarse" url="/signup" icon="far fa-address-card icon-config" />
+                <Item name="Registrarse" url="/signup" icon="far fa-address-card icon-config" />
+                <Item name="Iniciar Sesion" url="/signin" icon="fas fa-sign-in-alt icon-config color-yellow" /> 
             </Fragment>)
         }
     }

@@ -20,7 +20,7 @@ function Course({ title, imagen }) {
             break;
             default:
             return(
-                <Link className="detalles" to="/"  data-toggle="modal" data-target="#exampleModal"><i className="fas fa-angle-double-left" ></i> Mostrar detalles</Link>
+                <Link className="detalles" to="/"  data-toggle="modal" data-target="#modalCourse"><i className="fas fa-angle-double-left" ></i> Mostrar detalles</Link>
             ) 
         }
     } 

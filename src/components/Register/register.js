@@ -1,7 +1,8 @@
 import React  from 'react';
 import './register.css';
 import { Helmet } from 'react-helmet'
- 
+import { Link } from 'react-router-dom';
+
 function Register(props) {
     return (
         <div className="p-2">
@@ -59,8 +60,8 @@ function Register(props) {
                         </div>
 
                         <div className="form-group">
-                            <button className="btn btn-info  btn-block">Registrar</button>
-                            <p className="text_" align="center">Tienes una cuenta? <a href="/signin" className="link_">Ingresar</a></p>
+                            <button className="btn btn-succes  btn-block shadow">Registrar</button>
+                             <p className="text_" align="center">Tienes una cuenta? <Link  className="link_" to="/signin">Ingresar</Link></p>
                         </div>
                     </form>
                 </div>

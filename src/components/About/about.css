@@ -1,0 +1,16 @@
+.about .img-fondo{
+    max-width: 100%; 
+    max-height: 100%!important;
+    height: 100%;
+    position: absolute;
+  }
+
+.about p{
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+}
+
+.about h2{
+  font-family: 'Fredoka One', cursive;
+
+}

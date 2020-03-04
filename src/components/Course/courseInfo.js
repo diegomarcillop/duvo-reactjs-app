@@ -14,7 +14,7 @@ function CourseInfo(props) {
         return (
           <Fragment>
             
-              <div className="col-sm-3">
+              <div className="col-sm-4">
               <Link className="btn btn-dark btn-sm btn" to="/course/"><i className="fas fa-angle-left"></i> Volver</Link>
               </div>
                <div className="col-sm-5 ml-auto">
@@ -41,7 +41,7 @@ function CourseInfo(props) {
       default:
         return (
           <div className="col-sm-6 ml-auto">
-            <button className="btn btn-succes btn-sm btn-block"><i className="fas fa-play"></i> Iniciar</button>
+            <a href="/signin" className="btn btn-succes btn-sm btn-block"><i className="fas fa-play"></i> Iniciar</a>
           </div>
         )
     }

@@ -23,6 +23,12 @@ nav .icon-class {
   color: rgb(250, 199, 104);
 }
 
+
+nav .icon-somos {
+  font-size: 15px;
+  color: rgb(134, 219, 194);
+}
+
 nav .dropdown-item:hover {
   font-family: 'Raleway', sans-serif;
 

@@ -1,11 +1,14 @@
 import React from 'react';
 import './login.css';
 import { Helmet } from 'react-helmet' 
+import { Link } from 'react-router-dom';
 
 function Login(props) {
     return (
         <div className=" p-3">
-           
+           <Helmet>
+                <title>Duvo- Iniciar Sesión </title>
+            </Helmet>
             <div className="col-md-4 ml-auto login-form  m-1  " >
             <br /><br />
                 <div className="card-body animated pulse ">
@@ -31,9 +34,9 @@ function Login(props) {
                         </div>
 
                         <div className="form-group">
-                            <button className="btn btn-info btn-block" type="submit">Ingresar</button>
+                            <button className="btn btn-succes btn-block" type="submit">Ingresar</button>
 
-                            <p align="center">No tienes una cuenta? <a href="/signup" className="link_">Registrate</a></p>
+                            <p align="center">No tienes una cuenta? <Link  className="link_" to="/signup">Registrate</Link></p>
                         </div>
                          
 

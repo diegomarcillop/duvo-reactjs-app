@@ -1,0 +1,27 @@
+ 
+
+.card-indicator  img{
+    width: 105px;
+    height: 70px;
+}
+
+.card-indicator h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    color: rgb(48, 70, 90);
+}
+
+.card-indicator h1{
+     font-size: 70%;
+     color: rgb(90, 112, 119);
+}
+
+.card-indicator{
+    background-color:  rgb(232, 250, 255);
+    max-width: 16em;
+    max-height: 7.3em;
+    margin: 10px 20px 0px 0px;
+
+}
+ 

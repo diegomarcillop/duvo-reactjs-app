@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import Axios from 'axios';
 import Login from './login';
 import { UsuarioContext } from '../../Context/usuario-context';
@@ -10,6 +10,10 @@ const LoginCo = (props) => {
         userName:"", password:"", auth: false
     });
     const {saveUser}= useContext(UsuarioContext); 
+ 
+    useEffect(() => {
+
+    })
 
     const outputEvent = async evt => {
         evt.preventDefault();  
@@ -51,6 +55,7 @@ const LoginCo = (props) => {
     }
     return (
         <div>
+            {console.log('Render LOGIN')}
             <Login methodData={outputEvent} handleSubmit={OnClick} />
          
         </div>
