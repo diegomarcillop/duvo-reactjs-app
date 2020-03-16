@@ -7,7 +7,7 @@
 
  .login-form input {
      font-size: 100%!important;
- }
+  }
 
  .login-form p {
      font-family: 'Raleway', sans-serif;
@@ -24,4 +24,10 @@
 
  .login-form label {
      font-size: 85%;
+ }
+
+ .login-form .inputLabel{
+    font-family: 'Fredoka One', cursive;
+     font-size: 100%;
+     color: rgb(63, 63, 63);
  }

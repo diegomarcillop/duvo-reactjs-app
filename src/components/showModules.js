@@ -1,12 +1,10 @@
-import React, { Component, Fragment, useContext } from 'react';
+import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import { UsuarioContext } from '../Context/usuario-context';
-
+ 
 function ShowModule(props) {
 
-
-    const { user } = useContext(UsuarioContext);
-    const { idRol } = user;
+  const user = {};
+  const idRol = 1;
 
     const showOptions = () => {
         switch (idRol) {

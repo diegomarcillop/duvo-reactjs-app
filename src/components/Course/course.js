@@ -1,12 +1,12 @@
 import React, { useContext, Fragment }  from 'react';
 import './course.css';
 import { Link } from 'react-router-dom';
-import { UsuarioContext } from '../../Context/usuario-context';
-
+ 
 function Course({ title, imagen }) {
 
-    const { user } = useContext(UsuarioContext);
-    const { idRol } = user;
+    const user = {};
+    const idRol = 1;
+  
 
     const showOptions = () => { // show options -> | rol 1-> student | 2 -> admin ......
         switch(idRol){

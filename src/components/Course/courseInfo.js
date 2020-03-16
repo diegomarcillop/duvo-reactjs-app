@@ -1,12 +1,11 @@
-import React, { Component, Fragment, useContext } from 'react';
+import React, { Component, Fragment } from 'react';
 import ShowModule from '../showModules';
-import { UsuarioContext } from '../../Context/usuario-context';
-import { Link } from 'react-router-dom';
+ import { Link } from 'react-router-dom';
 
 function CourseInfo(props) {
 
-  const { user } = useContext(UsuarioContext);
-  const { idRol } = user;
+  const user = {};
+  const idRol = 1;
 
   const showOptions = () => {
     switch (idRol) {

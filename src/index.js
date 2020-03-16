@@ -1,15 +1,13 @@
-
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './app';
-import UsuarioContextProvider from './Context/usuario-context';
-
-
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./app";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 
 ReactDOM.render(
-    <UsuarioContextProvider>
-        <App />
-    </UsuarioContextProvider>, 
-    document.getElementById('root'));
-
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);

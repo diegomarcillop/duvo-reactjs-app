@@ -1,14 +1,11 @@
 import React  from 'react';
 import './register.css';
-import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom';
 
 function Register(props) {
     return (
         <div className="p-2">
-            <Helmet>
-                <title>Duvo- Registro </title>
-            </Helmet>
+         
             <div className="col-md-4 ml-auto registerForm  animated pulse " > 
                 <div className="card-body">
                 <div className="text-center">
