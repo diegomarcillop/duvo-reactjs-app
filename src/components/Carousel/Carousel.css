@@ -1,0 +1,25 @@
+.carousel h5{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+    font-size: 4vh;
+}
+
+.carousel p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.8vh;
+}
+
+.carousel .btn-carousel-info {
+    font-family: 'Lato',sans-serif;
+    font-size: 2.6vh;
+    padding: 10px;
+    font-weight: 900;
+     border-radius: 100rem;
+      color: white; 
+    border: 2px solid steelblue;
+     transition: 0.9s!important; 
+}
+
+.carousel .btn-carousel-info:hover{
+background-color: steelblue;
+}
