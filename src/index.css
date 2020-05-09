@@ -1,112 +1,126 @@
 body {
-  background: #abbaab;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- }
+  background-color: #dce8f5;
+}
 
 html {
   overflow-x: hidden;
   width: 100%;
-   overflow-y: scroll!important; 
-}
- 
-.btn{
-  font-size: medium;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
+  overflow-y: scroll!important;
 }
 
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 22px;
+  color: rgb(44, 43, 43)
+}
+
+h6 {
+  font-size: 14px;
+}
+
+button {
+  transition: all .8s;
+}
+
+option {
+  font-size: 2vh;
+}
+
+option:hover {
+  background-color: #1358BD!important;
+}
+
+.button-duvo {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  border-radius: 20px;
+  margin-top: 2vh;
+  color: white;
+  font-size: 2.2vh;
+  background: linear-gradient( rgb(49, 80, 139), rgb(57, 64, 128));
+  transition: all .8s;
+}
+
+.button-duvo:hover {
+  background: linear-gradient( rgb(33, 54, 94), rgb(48, 53, 102));
+  color: white;
+}
+
+@media only screen and (max-width: 1050px) {
+  .vector-prices {
+    background: none;
+  }
+}
+
+.linkDuvo {
+  font-family: 'Fredoka One', cursive;
+  color: rgb(73, 70, 70);
+  font-size: small;
+}
+
+.linkDuvo:hover {
+  color: rgb(66, 64, 64);
+}
 
 .central-content {
   justify-content: center;
-   margin: auto;
-} 
+  margin: auto;
+}
 
-.div-while{
-  background-color: #fbfbfb; 
+.div-while {
+  background-color: #fbfbfb;
 }
 
 .help-text {
   font-family: 'Fredoka One', cursive;
 }
-h1{
+
+.help-div label {
   font-family: 'Fredoka One', cursive;
-  font-size: 22px;
 }
 
-h6{
-  font-size: 14px;
-}
-
-.help-div label{
-  font-family: 'Fredoka One', cursive;
-
-}
-
-button{
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-}
-
-.error404{  
-  max-width: 100%; 
+.error404 {
+  max-width: 100%;
   max-height: 100%!important;
   height: 100%;
- 
-}
- 
-
-.form-group a{
-  font-family: 'Fredoka One', cursive;
-  font-size: 15px;
 }
 
-.input-group input{
+.input-group input {
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
   stop-color: rgb(49, 49, 49);
 }
 
-.form-group label{
+.form-group label {
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-}
-
-.form-group p a{
-  font-family: 'Fredoka One', cursive;
   font-size: 14px;
 }
 
 .font-releway {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-
 }
 
 .module {
-  font-family: 'Raleway', sans-serif ;
-  font-size: 14px ;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
 }
 
 .white-background {
   background-color: #ffffff;
 }
 
-.create h1{
+.create h1 {
   font-size: 18px;
 }
 
-.create h6{
+.create h6 {
   font-size: 14px;
-
 }
 
-  
-
-
-.courseInfo p{
-  font-family: 'Raleway', sans-serif ;
-  font-size: 90% ;
+.courseInfo p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 90%;
 }
 
 .icon-cambios {
@@ -114,25 +128,19 @@ button{
   color: rgb(243, 176, 113);
 }
 
- 
-
-.chat-nav{
+.chat-nav {
   opacity: 0.1;
 }
 
-
-.icon-chat{
+.icon-chat {
   font-size: 30px;
   margin: 0px 5px 0px 5px;
-
   color: #35640a;
 }
 
-.margin-person{
+.margin-person {
   margin: 0px 5px 0px 5px;
-
 }
-
 
 .text_ {
   font-family: 'Raleway', sans-serif;
@@ -142,73 +150,54 @@ button{
   align-content: center;
 }
 
-.btn-succes{
-  background-color: #0d6a86;
-  color: white;
-  border: #0d6a86;
-}
-
-.btn-succes:hover{
-  background-color:  #0d7c9e; 
-  color: white;
-
-}
-
- 
-.text-small{
+.text-small {
   font-size: 10px;
 }
 
 .font-releway-input {
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
+}
 
-} 
-
-.font-fredoka-small{
+.font-fredoka-small {
   font-family: 'Fredoka One', cursive;
   font-size: 11px;
 }
 
-
- 
-
-.carousel-item:before{
-  content:"";
+.carousel-item:before {
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   right: 0;
-  background: linear-gradient(rgba(255,255,255,0),#0F2C33 100%); 
-  
-}  
-.img-carrusel{
+  background: linear-gradient(rgba(10, 110, 209, 0.158), rgb(9, 20, 49) 100%);
+}
+
+.img-carrusel {
   width: 100%;
   max-height: 50rem;
 }
 
-.imageLogin{
-  max-width: 100%; 
+.imageLogin {
+  max-width: 100%;
   max-height: 100%!important;
   height: 100%;
   position: absolute;
 }
 
-
-.imageLogin_{
-  max-width: 70%; 
+.imageLogin_ {
+  max-width: 70%;
   max-height: 100%!important;
   height: 100%;
   position: absolute;
 }
- 
+
 @media screen and (max-width: 500px) {
-  .imageLogin   {
-      content:url("");
+  .imageLogin {
+    content: url("");
   }
-  } 
-
+}
 
 .form1 {
   background-color: #edf1f0;
@@ -221,15 +210,15 @@ button{
 
 .index-one {
   background-color: #e7f6f6;
-} 
- 
+}
 
 .index-two {
   background-color: #f5f5f5;
-}   
+}
+
 .op {
   color: rgb(63, 57, 57)
-} 
+}
 
 .about-descrip {
   font-family: 'Raleway', sans-serif;
@@ -243,8 +232,6 @@ button{
   text-align: justify;
 }
 
-
-
 .font-neuton {
   font-family: 'Flamenco', cursive;
   font-size: 20px;
@@ -254,16 +241,11 @@ button{
   font-family: 'Raleway', sans-serif;
   font-size: 17px;
   align-content: left;
-} 
+}
+
 .icon-clases {
   font-size: 23px;
   color: rgb(179, 207, 87);
-}
-
- 
-
-option {
-  font-size: 14px;
 }
 
 selected {
@@ -273,7 +255,7 @@ selected {
 .enlace_desactivado {
   pointer-events: none;
   cursor: default;
-} 
+}
 
 .font-big {
   font-size: 26px;
@@ -311,7 +293,6 @@ selected {
   align-content: center;
 }
 
- 
 .item_ {
   color: rgb(243, 243, 243);
 }
@@ -319,8 +300,6 @@ selected {
 .dxx {
   align-content: left;
 }
-
- 
 
 .title-conten {
   font-size: 15px;
