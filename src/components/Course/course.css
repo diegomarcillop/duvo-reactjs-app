@@ -1,62 +1,58 @@
 
-.card-course .card{
-    border-left: 6px solid rgb(95, 159, 170);
-
+.card-course { 
+    background-color: rgb(229, 235, 252)!important;
+    cursor: pointer;
 }
 
-td{
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+.card-course {
+    margin: 10px;
+}
+.card-course img { 
+    width: 100%;
+    height: 100%; 
+    border-radius: 10px 10px 0px 0px;
+}
+ 
+.card-course .content {
+    padding: 3vh 0vh 0px 0px;
 }
 
-.icon-class {
-    font-size: 16px;
-    margin: 0px 2px 0px 5px;
-    color: #467b9e;
-  }
-
-  .icon-cambios {
-    font-size: 16px;
-    margin: 0px 2px 0px 4px;
-    color: rgb(240, 142, 50);
-  }
-  
-.card-info{
-    background-color: rgb(255, 255, 255);
-}
-
-.card-info h1{
-    margin: 25px!important;
-}
-
-.card-course .detalles{
-    margin: 0px 0px 0px 50%;
-    font-size: 16px;
+.card-course h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 1.0em;
+    color: rgb(48, 54, 80);
+    text-align: center;
 }
 
 .card-course p{
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 1.9vh;
     text-align: justify;
+    text-align: center;
+}
+ 
+.card-course  .card{
+    border-radius: 10px;
 }
 
-.card-course img{
- max-width: 6em;
- width: 6em;   
- }
+.parallax {
+    background-image: url("/img/parallax.jpg");
+    min-height: 200px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 5vh;
+    color: white;
+}
  
- .card-course .detalles{
-     font-size: 15px;
- }
-
-.card-course h1 {
-    font-family: 'Fredoka One', cursive;
-    font-size: 17px;
-     text-align: center; 
-    margin: 10px 0px 5px 3px;
-    color: rgb(55, 64, 71);
-  }
-
-
-
   
