@@ -1,15 +1,16 @@
 footer{
-  background-color: #0F2C33!important;
+  background-color:#122a6d;
+
 
 }
 
-.footer-font{
-    font-family: 'Fredoka One', cursive;
-    color: white;
-    font-size: 14px;
-  }
-  
-  .footer-font a{
-    font-family: 'Raleway', sans-serif;
-  
-  }
+footer i {
+  margin-left: 1vh;
+  font-size: 28px;
+  color: white;
+  transition:  all 0.8s ease;
+}
+
+footer i:hover {
+  color: #92abf0;
+}

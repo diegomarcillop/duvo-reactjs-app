@@ -1,10 +1,9 @@
-.progress{
-    height:16px;
-  }
-  
-  .progress-bar {
-      background-color: rgb(135, 177, 59);
-      font-family: 'Fredoka One', cursive;
-      font-size: 10px;
-    }
-  
+.progress {
+  height: 16px;
+}
+
+.progress-bar {
+  background-color: rgb(135, 177, 59);
+  font-family: 'Fredoka One', cursive;
+  font-size: 10px;
+}

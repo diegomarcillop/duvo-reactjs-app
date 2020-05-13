@@ -4,10 +4,10 @@ function Error404(){
     return(
         <div className="central-content">
                <div className="col-sm-10 mx-auto">
-               <img src='/img/error404.svg' className="error404"/>
+               <img src='/img/error404.svg' className="error404" alt="img-error404"/>
                </div>
                <div className="col-sm-2 mx-auto">
-               <Link className="btn btn-info btn-sm btn-block" to="/"> <i class="fas fa-arrow-left"> </i>{" "}Volver</Link>
+               <Link className="btn button-duvo btn-sm btn-block" to="/"> <i class="fas fa-arrow-left"> </i>{" "}Volver</Link>
                </div>
         </div>
     )

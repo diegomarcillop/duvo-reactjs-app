@@ -30,6 +30,53 @@ option:hover {
   background-color: #1358BD!important;
 }
 
+.card-add {
+  background-color: rgb(255, 254, 255);
+  border-radius: 10px;
+  margin-top: 2vh;
+}
+
+.card-add option {
+  font-family: 'Raleway', sans-serif;
+  padding: 4vh;
+}
+
+.card-add h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 2.6vh;
+  color: rgb(61, 61, 61);
+}
+
+.card-add label {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 2vh;
+  color: rgb(66, 66, 66);
+}
+
+.card-add .form-control {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.1vh;
+  background-color: rgb(215, 227, 250);
+  border: none;
+  border-radius: 4px;
+  color: black;
+  outline: 0;
+}
+
+#file-upload-button {
+  border-radius: 60px!important;
+  border: none;
+  background-color: wheat;
+}
+
+.card-add .btn-add {
+  margin-top: 1vh;
+  font-size: 2vh;
+  font-weight: 900;
+}
+
 .button-duvo {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -52,23 +99,9 @@ option:hover {
   }
 }
 
-.linkDuvo {
-  font-family: 'Fredoka One', cursive;
-  color: rgb(73, 70, 70);
-  font-size: small;
-}
-
-.linkDuvo:hover {
-  color: rgb(66, 64, 64);
-}
-
 .central-content {
   justify-content: center;
   margin: auto;
-}
-
-.div-while {
-  background-color: #fbfbfb;
 }
 
 .help-text {
@@ -83,85 +116,6 @@ option:hover {
   max-width: 100%;
   max-height: 100%!important;
   height: 100%;
-}
-
-.input-group input {
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
-  stop-color: rgb(49, 49, 49);
-}
-
-.form-group label {
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-}
-
-.font-releway {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-}
-
-.module {
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-}
-
-.white-background {
-  background-color: #ffffff;
-}
-
-.create h1 {
-  font-size: 18px;
-}
-
-.create h6 {
-  font-size: 14px;
-}
-
-.courseInfo p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 90%;
-}
-
-.icon-cambios {
-  font-size: 20px;
-  color: rgb(243, 176, 113);
-}
-
-.chat-nav {
-  opacity: 0.1;
-}
-
-.icon-chat {
-  font-size: 30px;
-  margin: 0px 5px 0px 5px;
-  color: #35640a;
-}
-
-.margin-person {
-  margin: 0px 5px 0px 5px;
-}
-
-.text_ {
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
-  stop-color: white;
-  width: 100%;
-  align-content: center;
-}
-
-.text-small {
-  font-size: 10px;
-}
-
-.font-releway-input {
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
-}
-
-.font-fredoka-small {
-  font-family: 'Fredoka One', cursive;
-  font-size: 11px;
 }
 
 .carousel-item:before {
@@ -179,161 +133,8 @@ option:hover {
   max-height: 50rem;
 }
 
-.imageLogin {
-  max-width: 100%;
-  max-height: 100%!important;
-  height: 100%;
-  position: absolute;
-}
-
-.imageLogin_ {
-  max-width: 70%;
-  max-height: 100%!important;
-  height: 100%;
-  position: absolute;
-}
-
 @media screen and (max-width: 500px) {
   .imageLogin {
     content: url("");
   }
-}
-
-.form1 {
-  background-color: #edf1f0;
-}
-
-.ultimo {
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-}
-
-.index-one {
-  background-color: #e7f6f6;
-}
-
-.index-two {
-  background-color: #f5f5f5;
-}
-
-.op {
-  color: rgb(63, 57, 57)
-}
-
-.about-descrip {
-  font-family: 'Raleway', sans-serif;
-  font-size: 21px;
-  text-align: justify;
-}
-
-.help {
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  text-align: justify;
-}
-
-.font-neuton {
-  font-family: 'Flamenco', cursive;
-  font-size: 20px;
-}
-
-.size-class {
-  font-family: 'Raleway', sans-serif;
-  font-size: 17px;
-  align-content: left;
-}
-
-.icon-clases {
-  font-size: 23px;
-  color: rgb(179, 207, 87);
-}
-
-selected {
-  font-size: 14px;
-}
-
-.enlace_desactivado {
-  pointer-events: none;
-  cursor: default;
-}
-
-.font-big {
-  font-size: 26px;
-}
-
-.clr {
-  font-family: 'Raleway', sans-serif;
-}
-
-.descrip {
-  font-family: 'Raleway', sans-serif;
-  font-size: 17px;
-  text-align: justify;
-}
-
-.size-iconn {
-  font-size: 23px;
-  color: rgb(28, 199, 162);
-}
-
-.size-iconnn {
-  font-size: 23px;
-  color: rgb(216, 162, 64);
-}
-
-.header-user {
-  width: 100%;
-  align-content: center;
-}
-
-.text-user {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  width: 100%;
-  align-content: center;
-}
-
-.item_ {
-  color: rgb(243, 243, 243);
-}
-
-.dxx {
-  align-content: left;
-}
-
-.title-conten {
-  font-size: 15px;
-  color: #183a66;
-}
-
-.size-icon {
-  font-size: 33px;
-}
-
-.size-small {
-  font-size: 15px;
-}
-
-.central-div {
-  justify-content: center;
-  display: block;
-  margin: auto;
-}
-
-.dropdown-item {
-  font-size: 14px;
-  left: 0px;
-  max-width: 100%;
-}
-
-.send {
-  align-content: left;
-}
-
-.space {
-  margin: 4px;
-}
-
-.div-size {
-  height: 515px;
 }

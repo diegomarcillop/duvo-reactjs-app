@@ -4,9 +4,7 @@ import Pack from "./Pack";
 export default function Prices() {
   return (
     <>
-      <div className="container prices-container" style={{
-        height:"70vh"
-      }}>
+      <div className="prices-container"  >
         <h1 className="text-center">Nuestros planes</h1>
         <div className="col-10  mx-auto"  >
           <div className="row">

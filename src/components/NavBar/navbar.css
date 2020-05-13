@@ -1,14 +1,15 @@
 nav {
-  font-family: 'Fredoka One', cursive;
-  font-size: 12px;
-  background-color: #0F2C33!important;
- }
- 
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 2vh;
+  background-color: #122a6d;
+}
 
 .navbar li:hover {
-  background: rgba(31, 89, 102, 0.349);
+  background: #1358BD;
+  transition: all .8s;
   color: black;
-  border-radius: 70px 70px 70px 70px;
+  border-radius: 10px;
   -moz-border-radius: 70px 70px 70px 70px;
   -webkit-border-radius: 70px 70px 70px 70px;
 }
@@ -18,42 +19,20 @@ nav .icon-user {
   color: rgb(132, 219, 253);
 }
 
-nav .icon-class {
-  font-size: 15px;
-  color: rgb(250, 199, 104);
-}
-
-
-nav .icon-somos {
-  font-size: 15px;
-  color: rgb(134, 219, 194);
-}
-
 nav .dropdown-item:hover {
   font-family: 'Raleway', sans-serif;
-
-  background: rgb(142, 181, 190);
-  color: black;
+  background: #1358BD;
+  color: white;
 }
 
 nav .dropdown-item {
-  font-family: 'Raleway', sans-serif; 
-  font-size: 12px; 
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
   font-weight: bold;
 }
 
-.icon-config{
+.icon-config {
   font-size: 15px;
-  color:#aeee72;
+  color: #aeee72;
   margin: 0px 5px 0px 5px;
-} 
-
-.color-yellow{
-  font-size: 15px;
-  color:#f1b067!important;
-}
-
-.icon-home{
-  font-size: 17px;
-  color:#fff3c0!important;
 }

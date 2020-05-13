@@ -1,6 +1,6 @@
 import React, { useContext, Fragment }  from 'react';
 import './course.css';
-import { Link } from 'react-router-dom';
+import { Link } from '../ModuleClass/node_modules/react-router-dom';
  
 function Course({ title, imagen }) {
 
